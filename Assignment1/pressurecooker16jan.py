@@ -18,7 +18,7 @@ m = input("Enter the minutes:\n")
 s = input("Enter the seconds:\n")
 timer(int(m), int(s))
 from playsound import playsound
-playsound('E:/python asignment/beep.mp3')
+playsound('https://github.com/tejaswininayak99/sangamone-python/blob/25b197c1cffaa0b6cb5ffd2d7b4b3ffab14a9bc4/Assignment1/beep.mp3')
 print("\n MoM turn off the cooker")
 
 
