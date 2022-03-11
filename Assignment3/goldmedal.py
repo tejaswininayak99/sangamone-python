@@ -39,27 +39,27 @@ for i in range(0,26,1):
         list2=list1[7].split(":")
         subjects.append(list2[0])
         bio.append(list2[1])
-print(list2[0])
+
 print(eng)
 maxEng=max(eng)
 print(maxEng)
 
-print(list2[0])
+
 print(maths)
 maxMaths=max(maths)
 print(maxMaths)
 
-print(list2[0])
+
 print(physics)
 maxPhysics=max(physics)
 print(maxPhysics)
 
-print(list2[0])
+
 print(chem)
 maxchem=max(chem)
 print(maxchem)
 
-print(list2[0])
+
 print(bio)
 maxbio=max(bio)
 print(maxbio)
