@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Prime Number</title>
+    <style>
+        body {
+            background-color: darkgray;
+        }
+
+form{
+
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: White;
+}
+h2{
+    text-align: center;
+    color: red;
+}
+
+  .button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}      
+    </style>
+</head>
+<body>
+    <h1 style="color:powderblue;">CHECK WHETHER THE NUMBER IS PRIME OR NOT.</h1>
+    <br/>
+    <br/>
+     <form action="/" method="POST">
+        <h1 style="text-color:White" >Enter the number</h1>
+        <input  id="input1" name="input1" >
+        <br/>
+        <br/>
+        <button type="submit" class="button">Submit</button>
+<br/>
+    <h1 >{{message1}} Is Prime</h1>
+    <h2 >{{message2}} Is not Prime</h2>
+</form>
+</body>
+</html>
